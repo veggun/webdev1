@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Merriweather:wght@300&display=swap');
+
+.Name{
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: center;
+	font-size: 50px;
+}
+
+.img {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/img.png);
+}
+
+.nav {
+	width: 1440px;
+	height: 100px;
+	background-color: #E5E000;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+.mainText {
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	
+}
+
+.footer {
+	width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: right;
+	font-size: 50px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	color: white;
+}

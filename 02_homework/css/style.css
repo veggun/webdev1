@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Merriweather:wght@300&display=swap');
 
-.Name{
+header{
+	background-color: #E5E000;
+	padding-top: ;
 	width: 1440px;
 	height: 200px;
-	background-color: #E5E000;
+	
+	}
+
+.name {
+	line-height: 200px;
+	padding-left: 80px;
 	font-family: 'Balsamiq Sans', cursive;
-	text-align: center;
 	font-size: 50px;
+	color: white;
+	
 }
 
 .img {
@@ -29,26 +37,59 @@ a {
 	text-decoration: none;
 }
 
-.header {
+
+
+.article {
+	width: 1280px;
+	height: 637px;
+	padding-left: 80px;
+	
+}
+
+.name_2 {
 	font-size: 50px;
 	font-weight: bold;
 	font-family: 'Balsamiq Sans', cursive;
 }
 
 .mainText {
-	font-size: 40px;
+	font-size: 23px;
 	font-family: 'Merriweather', serif;
+	box-sizing: border-box;
 	
 }
 
 .footer {
 	width: 1440px;
 	height: 200px;
-	background-color: #E5E000;
+	background-color:#E5E000 ;
+	border: 1px solid  #E5E000;
+	box-sizing: border-box;
+	position: absolute;
+}
+
+.imgfoot {
+	width: 205px;
+	height: 46px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	color: black;
+	position: absolute;
+	top: 77px;
+	left: 80px;
+
+}
+
+
+.rightText {
+	width: 614px;
+	height: 64px;
 	font-family: 'Balsamiq Sans', cursive;
 	text-align: right;
 	font-size: 50px;
-	background-image: url(../img/logo.png);
-	background-repeat: no-repeat;
 	color: white;
+	position: absolute;
+	top: 80px;
+	right: 68px;
 }
+

@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Merriweather:wght@300&display=swap');
 
+
+.general {
+	width: 1440px;
+}
+
 header{
 	background-color: #E5E000;
-	padding-top: ;
-	width: 1440px;
 	height: 200px;
-	
 	}
 
 .name {
@@ -18,13 +20,11 @@ header{
 }
 
 .img {
-	width: 1440px;
 	height: 1080px;
 	background-image: url(../img/img.png);
 }
 
 .nav {
-	width: 1440px;
 	height: 100px;
 	background-color: #E5E000;
 	font-size: 25px;
@@ -41,7 +41,8 @@ a {
 
 .article {
 	width: 1280px;
-	height: 637px;
+	padding-top: 55px;
+	padding-bottom: 110px;
 	padding-left: 80px;
 	
 }
@@ -55,41 +56,36 @@ a {
 .mainText {
 	font-size: 23px;
 	font-family: 'Merriweather', serif;
-	box-sizing: border-box;
 	
 }
 
 .footer {
-	width: 1440px;
 	height: 200px;
-	background-color:#E5E000 ;
-	border: 1px solid  #E5E000;
-	box-sizing: border-box;
-	position: absolute;
-}
+	background-color:#E5E000;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-size: 205px 46px;
+	background-position: 77px 80px;
+	color: black;
+	}
 
-.imgfoot {
+
+/*.imgfoot {
 	width: 205px;
 	height: 46px;
 	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
-	color: black;
-	position: absolute;
-	top: 77px;
-	left: 80px;
+	color: black;  
+	} */
 
-}
 
 
 .rightText {
-	width: 614px;
-	height: 64px;
 	font-family: 'Balsamiq Sans', cursive;
 	text-align: right;
+	line-height: 200px;
+	padding-right: 80px;
 	font-size: 50px;
 	color: white;
-	position: absolute;
-	top: 80px;
-	right: 68px;
 }
 

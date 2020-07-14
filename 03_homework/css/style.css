@@ -1,0 +1,60 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Noto+Serif+TC&display=swap');
+.general {
+	width: 1440px;
+}
+.header {
+	height: 60px;
+	background-color: #FE1A19;
+}
+
+.menu {
+	position: absolute;
+}
+.recipe {
+	color: white;
+	line-height: 60px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-family: 'Noto Serif TC', serif;
+}
+.tart {
+	width: 400px;
+	height: 800px;
+	border: 5px #E5E000 solid;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 97px 33px 33px 33px;
+	font-size: 20px;
+	line-height: 23px ;
+}
+
+.first {
+	position: absolute;
+	top: 52px;
+	left: 70px;
+}
+
+.second {
+	position: absolute;
+	top: 52px;
+	left: 520px;
+}
+
+.third {
+	position: absolute;
+	top: 52px;
+	left: 1003px;
+}
+.footer {
+	height: 60px;
+	background-color: #FE1A19
+}
+
+.copyright {
+ 	color: white;
+ 	line-height: 60px;
+ 	font-size: 20px;
+
+}

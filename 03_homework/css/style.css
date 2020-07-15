@@ -25,15 +25,20 @@
 	border-radius: 30px;
 	box-sizing: border-box;
 	display: inline-block;
-	padding: 97px 33px 33px 33px;
-	font-size: 20px;
-	line-height: 23px ;
+	position: relative;
 }
 
-.fir_1 {
-	font-style: 20px;
+.pex {
+	padding: 97px 33px 33px 33px;
+	font-size: 20px;
+	line-height: 23px
+}
+
+h1 {
+	font-size: 20px;
 	font-weight: 600;	
-	top:;
+	padding: 33px 160px 41px 33px;
+	position: absolute;
 }
 
 .first {

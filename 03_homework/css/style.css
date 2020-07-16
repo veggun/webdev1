@@ -9,8 +9,9 @@
 }
 
 .menu {
-	/*position: absolute;*/
+	text-align: center;
 }
+
 .recipe {
 	color: white;
 	line-height: 60px;
@@ -18,6 +19,7 @@
 	font-size: 20px;
 	font-family: 'Noto Serif TC', serif;
 }
+
 .tart {
 	width: 400px;
 	height: 800px;
@@ -28,7 +30,7 @@
 	position: relative;
 }
 
-.pex {
+.text {
 	padding: 97px 33px 33px 33px;
 	font-size: 20px;
 	line-height: 23px
@@ -42,19 +44,18 @@ h1 {
 }
 
 .first {
-	/*position: absolute;*/
-	margin-left: 70px;
+	text-align: left;
 }
 
 .second {
-	/*position: absolute;*/
+	text-align: left;
 	margin: 52px 50px; 
 }
 
 .third {
-	/*position: absolute;*/
-
+	text-align: left;
 }
+
 .footer {
 	height: 60px;
 	background-color: #FE1A19
@@ -71,7 +72,7 @@ h1 {
 a {
 	text-decoration: none;
 	color: white;
-	padding-left: 1180px; 
+	padding-left: 1180px;
 	line-height: 60px;
 	display: inline-block;	
 	font-size: 20px;

@@ -1,31 +1,33 @@
 @import url(reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Noto+Serif+TC&display=swap');
-.general {
-	width: 1440px;
-}
-.header {
-	height: 60px;
-	background-color: #FE1A19;
-}
-
-.menu {
-	text-align: center;
-
-}
 
 * {
 box-sizing: border-box;	
 }
 
+body{
+	font-size: 20px;
+	
+}
+
+.wrapper {
+	width: 1440px;
+}
+
+.header {
+	height: 60px;
+	background-color: #FE1A19;
+}
 
 .recipe {
 	color: white;
 	line-height: 60px;
 	padding-left: 20px;
-	font-size: 20px;
-	font-family: 'Noto Serif TC', serif;
 }
 
+.menu {
+	text-align: center;
+}
 
 .dessert {
 	width: 400px;
@@ -33,25 +35,27 @@ box-sizing: border-box;
 	border: 5px #E5E000 solid;
 	border-radius: 30px;
 	display: inline-block;
-
-}
-
- ul {
-    margin-left: 0; 
-    padding-left: 0;
-   }
-
-.text {
+	text-align: left;
 	padding: 41px 33px 33px 33px;
-	font-size: 20px;
-	line-height: 23px
 }
 
 h1 {
-	font-size: 20px;
 	font-weight: 600;	
-	padding: 33px 160px 0px 33px;
-	/*position: absolute;*/
+	padding-bottom: 41px;
+}
+
+.text {
+	line-height: 23px;
+	/*font-family: 'Noto Serif TC', serif;*/
+}
+
+ul {
+   list-style-type: none;
+}
+
+
+h3{
+	text-transform: uppercase;	
 }
 
 h3~h3 {
@@ -59,17 +63,9 @@ h3~h3 {
 	text-transform: uppercase;
 }
 
-.first {
-	text-align: left;
-}
 
 .second {
-	text-align: left;
 	margin: 52px 50px; 
-}
-
-.third {
-	text-align: left;
 }
 
 .footer {
@@ -81,7 +77,6 @@ h3~h3 {
   	width: 48.5%;
   	color: white;
  	line-height: 60px;
- 	font-size: 20px;
 	padding-left: 20px;
 	display: inline-block;
 	text-align: left;
@@ -91,7 +86,6 @@ a {
 	width: 48.5%;
 	text-decoration: none;
 	color: white;
-	/*padding-left: 1180px;*/
 	line-height: 60px;
 	display: inline-block;
 	font-size: 20px;

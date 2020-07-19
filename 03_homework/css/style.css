@@ -36,10 +36,11 @@ body{
 	border-radius: 30px;
 	display: inline-block;
 	text-align: left;
-	padding: 41px 33px 33px 33px;
+	padding: 33px;
 }
 
 h1 {
+	font-size: 22px;
 	font-weight: 600;	
 	padding-bottom: 41px;
 }

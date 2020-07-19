@@ -1,28 +1,33 @@
-@import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Noto+Serif+TC&display=swap');
-
+/*@import url(reset.css);*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
 	box-sizing: border-box;	
+	padding: 0rem;
+	margin: 0rem;
+}
+
+html {
+	font-size: 10px;
 }
 
 body{
-	font-size: 20px;
-	
+	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
-	width: 1440px;
+	width: 144rem;
 }
 
 .header {
-	height: 60px;
+	height: 6rem;
 	background-color: #FE1A19;
 }
 
 .recipe {
 	color: white;
-	line-height: 60px;
-	padding-left: 20px;
+	line-height: 6rem;
+	padding-left: 2rem;
 }
 
 .menu {
@@ -30,24 +35,22 @@ body{
 }
 
 .dessert {
-	width: 400px;
-	/*height: 800px;*/
+	width: 40rem;
 	border: 5px #E5E000 solid;
-	border-radius: 30px;
+	border-radius: 3rem;
 	display: inline-block;
 	text-align: left;
-	padding: 33px;
+	padding: 3.3rem;
 }
 
 h1 {
-	font-size: 22px;
+	font-size: 2.2rem;
 	font-weight: 600;	
-	padding-bottom: 41px;
+	padding-bottom: 4.1rem;
 }
 
 .text {
-	line-height: 23px;
-	/*font-family: 'Noto Serif TC', serif;*/
+	line-height: 2.3rem;
 }
 
 ul {
@@ -57,27 +60,28 @@ ul {
 
 h3{
 	text-transform: uppercase;	
+	font-weight: normal;
 }
 
 h3~h3 {
-	margin-top: 20px;
+	margin-top: 2rem;
 }
 
 
 .second {
-	margin: 52px 50px; 
+	margin: 5.2rem 5rem; 
 }
 
 .footer {
-	height: 60px;
+	height: 6rem;
 	background-color: #FE1A19
 }
 
 .copyright {
   	width: 48.5%;
   	color: white;
- 	line-height: 60px;
-	padding-left: 20px;
+ 	line-height: 6rem;
+	padding-left: 2rem;
 	display: inline-block;
 	text-align: left;
 }
@@ -86,9 +90,9 @@ a {
 	width: 48.5%;
 	text-decoration: none;
 	color: white;
-	line-height: 60px;
+	line-height: 6rem;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 2rem;
 	text-align: right;
 }
 

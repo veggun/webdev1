@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
 	box-sizing: border-box;	
-	padding: 0rem;
-	margin: 0rem;
+	padding: 0px;
+	margin: 0px;
 }
 
 html {
@@ -37,13 +37,13 @@ body{
 .dessert {
 	width: 40rem;
 	border: 5px #E5E000 solid;
-	border-radius: 3rem;
+	border-radius: 30px;
 	display: inline-block;
 	text-align: left;
 	padding: 3.3rem;
 }
 
-h1 {
+ .dessert h1 {
 	font-size: 2.2rem;
 	font-weight: 600;	
 	padding-bottom: 4.1rem;

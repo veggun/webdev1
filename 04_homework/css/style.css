@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+.wrapper {
+	width: 1440px;
+}
+.header {
+	/*position: fixed;*/
+	height: 140px;
+	background-color: green;
+	color: red;
+	font-size: 50px;
+	display: flex;
+	line-height: 140px;
+}
+
+.head {
+	margin-left: 50px;
+}
+
+.link {
+	text-decoration: none;
+	color: red;
+}
+
+.first {
+	margin-left: 780px;
+}
+
+.second {
+	margin: 0px 25px;
+}
+
+
+
+.header-image {
+	width: 1440px;
+	position: relative;
+	display: flex;
+}
+
+.flex-contain-image {
+	width: 1440px;
+	/*display: flex;*/
+	
+}
+
+.image {
+	background-image: url(../img/evian_origins_logo.png);
+	height: 950px;
+}
+
+.text-contain {
+	width: 1440px;
+	display: flex;
+	height: 950px;
+	position: absolute;
+	align-items: center;
+	/*text-align: center;*/
+
+	
+}
+
+.our-water {
+	font-size: 100px;
+	color: #E50043;
+}
+

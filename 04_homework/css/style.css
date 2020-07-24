@@ -161,3 +161,11 @@ ul {
 	margin: 2.5rem 0px;
 }
 
+.footer {
+	height: 14rem;
+	color: white;
+	background-color: #F8BFC7;
+	font-size: 5rem;
+	line-height: 14rem;
+	padding-left: 5rem;
+}

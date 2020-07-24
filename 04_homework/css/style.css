@@ -1,20 +1,29 @@
-@import url(reset.css);
+/*@import url(reset.css);*/
+* {	
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	font-size: 10px;
+}
 
 .wrapper {
-	width: 1440px;
+	width: 144rem;
 }
-.header {
-	/*position: fixed;*/
-	height: 140px;
-	background-color: green;
+.header { 
+	position: fixed;
+	width: 144rem;	
+	height: 14rem;
+	background-color: white;
 	color: red;
-	font-size: 50px;
+	font-size: 5rem;
 	display: flex;
-	line-height: 140px;
+	line-height: 14rem;
 }
 
 .head {
-	margin-left: 50px;
+	margin-left: 5rem;
 }
 
 .link {
@@ -23,45 +32,80 @@
 }
 
 .first {
-	margin-left: 780px;
+	margin-left: 78rem;
 }
 
 .second {
-	margin: 0px 25px;
+	margin: 0px 2.5rem;
 }
 
 
 
-.header-image {
-	width: 1440px;
-	position: relative;
+.text-image {
+	width: 144rem;
 	display: flex;
-}
 
-.flex-contain-image {
-	width: 1440px;
-	/*display: flex;*/
-	
 }
 
 .image {
+	margin-top:14rem;
 	background-image: url(../img/evian_origins_logo.png);
-	height: 950px;
-}
-
-.text-contain {
-	width: 1440px;
+	height: 95rem;
+	width: 144rem;
 	display: flex;
-	height: 950px;
-	position: absolute;
+	justify-content: center;
 	align-items: center;
-	/*text-align: center;*/
-
-	
 }
 
 .our-water {
-	font-size: 100px;
+	font-size: 10rem;
 	color: #E50043;
 }
 
+
+
+.frame {
+	width: 104rem;
+	border: .3rem solid #F8BFC7;
+	border-radius: 2rem;
+	box-sizing: border-box;
+	font-size: 2.5rem;
+	font-family: Arial, Helvetica, sans-serif;
+	/*display: flex;*/
+	/*align-items: center;*/
+	letter-spacing: 0.05em;
+	margin: 15rem auto;
+}
+
+.frame-text {
+	padding:2.4rem;
+}
+
+.frame-text h3 {
+	font-size: 2.5rem;
+	font-weight: normal;
+	margin-bottom: 2.5rem;
+}
+
+
+
+.bottles {
+	display: flex;
+	justify-content: center;
+}
+
+.first-bottle, .second-bottle, .third-bottle {
+	width: 28rem;
+	background-image: url(../img/wang.png);
+	height: 86.3rem;
+	display: inline-block;
+}
+
+.second-bottle {
+	background-image: url(../img/blue.png);
+	margin:0px 10rem;
+}
+
+.third-bottle { 
+	background-image: url(../img/chiara.png);	
+}

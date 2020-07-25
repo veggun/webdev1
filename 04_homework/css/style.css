@@ -2,6 +2,7 @@
 * {	
 	padding: 0px;
 	margin: 0px;
+	box-sizing: border-box;
 }
 
 html {
@@ -10,12 +11,14 @@ html {
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.5rem;
 }
 
 .wrapper {
 	width: 144rem;
 }
 .header { 
+	top: 0px; 
 	position: fixed;
 	width: 144rem;	
 	height: 14rem;
@@ -24,6 +27,7 @@ body {
 	font-size: 5rem;
 	display: flex;
 	line-height: 14rem;
+	justify-content: space-between;
 }
 
 .head {
@@ -35,28 +39,22 @@ body {
 	color: red;
 }
 
-.first {
-	margin-left: 78rem;
+li {
+	display: inline-block;
+	list-style-type: none;
 }
 
-.second {
-	margin: 0px 2.5rem;
+.margin {
+	margin-right: 5rem;
 }
 
 
-
-.text-image {
-	width: 144rem;
-	display: flex;
-
-}
 
 .image {
+	display: flex;
 	margin-top:14rem;
 	background-image: url(../img/evian_origins_logo.png);
 	height: 95rem;
-	width: 144rem;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
@@ -72,11 +70,6 @@ body {
 	width: 104rem;
 	border: .3rem solid #F8BFC7;
 	border-radius: 2rem;
-	box-sizing: border-box;
-	font-size: 2.5rem;
-	
-	/*display: flex;*/
-	/*align-items: center;*/
 	letter-spacing: 0.05em;
 	margin: 15rem auto;
 }
@@ -86,45 +79,35 @@ body {
 }
 
 .frame-text h3 {
-	font-size: 2.5rem;
 	font-weight: normal;
 	margin-bottom: 2.5rem;
 }
 
 
 
-.bottles-contain {
+.bottles {
 	display: flex;
-	justify-content: center;
+	
 }
 
-.first-bottle, .second-bottle, .third-bottle {
+.bottle {
 	width: 28rem;
 	background-image: url(../img/wang.png);
 	height: 86.3rem;
 	display: inline-block;
+	margin: auto;
+	/*justify-content: flex-end;*/
+	/*align-items: flex-end;*/
 }
 
-.second-bottle {
+
+
+.second {
 	background-image: url(../img/blue.png);
-	margin:0px 10rem;
 }
 
-.third-bottle { 
-	background-image: url(../img/chiara.png);	
-}
-
-.text-bottle {
-	font-size: 2.5rem;
-}
-
-.text-contain {
-	display: flex;
-	justify-content: center;
-}
-
-.marg {
-	margin:0px 13.7rem;
+.third { 
+	background-image: url(../img/chiara.png);
 }
 
 
@@ -140,8 +123,6 @@ body {
 	width: 104rem;
 	border: .3rem solid #F8BFC7;
 	border-radius: 2rem;
-	box-sizing: border-box;
-	font-size: 2.5rem;
 	letter-spacing: 0.05em;
 	margin: 15rem auto;
 	display: flex;
@@ -153,9 +134,7 @@ body {
 	padding:2.4rem;
 }
 
-ul {
-	list-style-type: none;
-}
+
 
 .neutrally {
 	margin: 2.5rem 0px;

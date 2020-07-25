@@ -112,15 +112,7 @@ li {
 
 
 
-.frame-image {
-	width: 10.1rem;
-	height: 22rem;
-	background-image: url(../img/glass.png);
-	margin: 3rem 8rem;
-	background-repeat: no-repeat;
-}
-.frame-sec {
-	width: 104rem;
+figure {
 	border: .3rem solid #F8BFC7;
 	border-radius: 2rem;
 	letter-spacing: 0.05em;
@@ -130,8 +122,16 @@ li {
 	justify-content: center;
 }
 
+.frame-image {
+	width: 10.1rem;
+	height: 22rem;
+	/*background-image: url(../img/glass.png);*/
+	/*margin: 3rem 8rem;*/
+	/*background-repeat: no-repeat;*/
+}
+
 .frame-text-sec {
-	padding:2.4rem;
+	padding:2rem;
 }
 
 

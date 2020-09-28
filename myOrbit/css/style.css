@@ -1,0 +1,30 @@
+@import url(reset.css);
+@keyframes orbita {
+	0%{}
+	24% {z-index:0 }
+	25%{top: 130px; left: 380px; z-index: 2;} /*Вопрос про лучи*/
+	50%{width: 128px; }
+	74%{z-index: 2;}
+	75%{ top:300px; left: 40px; z-index: 0;}
+	100%{width: 72px; transform: rotate(360deg);}
+}
+
+body {
+	background:url(https://raw.githubusercontent.com/matthewbryancurtis/aframe-star-system-component/HEAD/screenshot.png);
+}
+
+.sun {
+	width: 300px;
+	padding: 100px;
+	position: relative;
+	z-index: 1;
+}
+
+.earth {
+	width: 50px;
+	position: absolute;
+	top: 170px;
+	left: 170px;
+	animation: linear 7s orbita infinite;
+	z-index: 0px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	font-size: 10px;
+}
+
+body{
+	font-size: 2rem;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+.wrapper {
+	width: 144rem;
+}
+
+.header , footer {
+	height: 16rem;
+	background-color: #FEB700;
+}
+
+.club , .year {
+	font-size: 5rem;
+	line-height: 16rem;
+	text-align: center;
+}
+
+
+.recipes {
+	display: flex;
+	justify-content: space-between;
+	padding: 7rem;
+	align-items: flex-start;
+}
+
+.image {
+	height: 60rem;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.one{
+	background-image: url("../img/Samosa Sweet Potatoes Wraps with Tofu Scramble.png");	
+
+}
+
+.two{
+	background-image: url("../img/Frozen Yogurt Breakfast Bars.png");
+}
+
+.three{
+	background-image: url("../img/Healthiest Ever Granola.png");
+}
+
+.recipe {
+	width: calc((100% - 10rem)/3);
+	min-height: 30rem;
+	border: 1px solid black;
+	text-align: left;
+	/*padding: 3.3rem; */
+}
+
+.text {
+	padding: 3.3rem;
+}
+
+
+ul {
+   list-style-type: none;
+}
+
+h1 {
+ padding-bottom: 3rem;
+ font-size: 2rem;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-top: 3rem;
+	font-weight: normal;
+}

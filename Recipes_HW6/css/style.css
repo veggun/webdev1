@@ -11,12 +11,8 @@ html {
 
 body{
 	font-size: 2rem;
-	/*font-family: 'Open Sans', sans-serif;*/
 }
 
-.wrapper {
-	width: 144rem;
-}
 
 .header , footer {
 	height: 16rem;

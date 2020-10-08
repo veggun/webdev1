@@ -1,0 +1,135 @@
+*{box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;}
+html {font-size: 10px;}
+body {font-size: 2rem;
+	  font-family: Arial, Helvetica, sans-serif;}
+
+
+
+header {
+	width: 144rem;
+	height: 14rem;
+	background: #F8BFC7;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: bold;
+}
+
+nav {
+	margin-left: 5rem;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 3rem;
+}
+
+.head {
+	margin-right: 5rem;
+	text-transform: uppercase;
+}
+
+
+
+.image	{
+	display: flex;
+	width: 144rem;
+	height: 64.3rem;
+	background-size: cover;
+	background-position: center;
+	background-image: url("../img/background.png");
+}
+
+.contain {
+	margin-top: 9rem;
+	margin-left: 9rem;
+}
+
+fieldset {
+	border:none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formcontain {
+	background-color:#F8BFC7;
+	width: 30rem;
+	height: 36rem;
+	border: .3rem solid white;
+	border-radius: 2rem;
+	padding-top: 2.5rem;
+	padding-left: 1.5rem;
+}
+
+input {
+	color: white;
+	background-color: #F8BFC7;
+	display: block;
+	font-size: 2rem;
+	outline: none;
+	border:none; 
+	border-bottom:1px white solid;
+	margin-top: 0.7rem;
+	margin-bottom:1.5rem;
+}
+
+input::placeholder {
+	color: white;
+	font-family: Times New Roman, sans-serif;
+	font-size: 1.7rem;
+}
+
+label {
+	color: white;
+	line-height: 3rem;
+}
+
+.button {
+	width: 20rem;
+	height: 6rem;
+	background-color:#FEB700;
+	margin-top: 1rem;
+	border: .3rem solid white;
+	border-radius: 3rem;
+	text-transform: uppercase;
+
+}
+
+
+
+.basement {
+	width: 144rem;
+	height: 17rem;
+	background-color: #336FD1;
+	display: flex;
+	justify-content: center;
+}
+
+.message {
+	color: #FEB700;
+	font-size: 5rem;
+	margin-top: 3rem;
+	text-transform: uppercase;
+}
+footer {
+	width: 144rem;
+	height: 14rem;
+	background: #F8BFC7;
+}
+
+.foot-a {
+ color: white;
+ line-height: 16rem;
+ margin-left: 3rem;
+}

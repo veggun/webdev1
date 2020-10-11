@@ -3,4 +3,4 @@ let watchesCount = prompt('Golden watches уже ждут твое wrist! Ска
 let earringsCount = prompt ('Bro, на твоем ear висит слишом мало brilliants. Скажи сколько нужно довесить?')
 let watchesSum = prompt('Скажи колько стоят эти wonderful часы made of gold plastic and uranium? ') * parseInt(watchesCount)
 let earringsSum = prompt('Не забудь назвать price этих beautiful сережек, сорванных с голодных african womens') * parseInt(earringsCount)
-parseInt(totalCash) >= parseInt(watchesSum) + parseInt(earringsSum)
+document.write(parseInt(totalCash) >= parseInt(watchesSum) + parseInt(earringsSum)) 

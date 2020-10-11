@@ -5,6 +5,7 @@ body{font-size: 2rem;}
 
 
 header , footer {
+	width: 100%;
 	background-color: #0000FF;
 	height: 5rem;
 }

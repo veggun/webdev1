@@ -20,6 +20,7 @@ header , footer {
 
 main {
 	width: 37.5rem;
+	height: 66.7rem;
 	display: flex;
 	padding: 1rem;
 	flex-wrap: wrap;
@@ -27,7 +28,7 @@ main {
 }
 .article {
 	border: .5rem solid black;
-	font-size: 5rem;
+	font-size: 2rem;
 	text-align: center;
 	font-weight: bold;
 	margin: 1rem;
@@ -49,6 +50,9 @@ main {
 	.article {
 		width: 60rem;
 		height: 30rem;
+		font-size: 5rem;
+		border: .5rem solid black;
+
 	} 
 	footer , header {
     	height: 10rem;

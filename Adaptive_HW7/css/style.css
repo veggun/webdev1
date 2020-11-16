@@ -1,0 +1,67 @@
+*{ box-sizing: border-box; padding: 0px; margin: 0px;}
+html {font-size: 10px;}
+body{font-size: 2rem;}
+
+
+
+header , footer {
+	width: 100%;
+	background-color: #0000FF;
+	height: 5rem;
+}
+
+.head , .copyright {
+    line-height: 5rem;
+    font-size: 2rem;
+	color: white;
+	margin-left: 3rem;
+}
+
+
+main {
+	width: 37.5rem;
+	height: 66.7rem;
+	display: flex;
+	padding: 1rem;
+	flex-wrap: wrap;
+
+}
+.article {
+	border: .5rem solid black;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+	
+	main {
+	width: 100%;
+	margin: 11rem;	
+    }
+	.article {
+		width: 60rem;
+		height: 30rem;
+		font-size: 5rem;
+		border: .5rem solid black;
+
+	} 
+	footer , header {
+    	height: 10rem;
+    }
+    .head , .copyright {
+    line-height: 10rem;
+    font-size: 2.5rem;
+
+
+
+
+}

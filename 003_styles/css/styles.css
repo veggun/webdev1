@@ -1,0 +1,11 @@
+*{ box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;}
+html {font-size: 10px;}
+body{font-size: 2rem;}
+
+.colored {
+	width: 30rem;
+	height: 30rem;
+	background-color: pink;
+}
